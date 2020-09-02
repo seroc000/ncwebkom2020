@@ -18,3 +18,23 @@ function buttonClick() {
   }
 }
 /* -------- */
+
+/* Delay code */
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+/* -------- */
+
+/* Quote fetch code */
+function fetchQuote() {
+  /* sleep(5000); */
+  /* await new Promise(resolve => setTimeout(resolve, 5000)); */
+  $.getJSON('https://api.kanye.rest/', function(data) {
+    document.getElementById("text-two").innerHTML = data.quote;
+  });
+}
+/* -------- */
