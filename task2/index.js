@@ -29,7 +29,7 @@ function sleep(milliseconds) {
 }
 /* -------- */
 
-/* Quote fetch code */
+/* Quote fetch code (async) */
 function fetchQuote() {
   /* sleep(5000); */
 
