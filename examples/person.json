@@ -1,0 +1,14 @@
+{
+  "__ID": "5fd038d0-0747-4871-9903-b021abd18cf0",
+  "nameFirst": "Sondre",
+  "nameMiddle": null,
+  "nameLast": "Kristensen",
+  "addressWork": {
+    "streetName": "Henrik Ibsens gate",
+    "streetNumber": 20,
+    "zipCode": "0255",
+    "city": "Oslo",
+    "state": "Oslo",
+    "country": "Norway"
+  }
+}

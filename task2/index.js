@@ -36,6 +36,7 @@ function fetchQuote() {
   /* await new Promise(resolve => setTimeout(resolve, 5000)); */
   
   $.getJSON('https://api.kanye.rest/', function(data) {
+    console.log(data);
     document.getElementById("text-two").innerHTML = data.quote;
   });
 }
